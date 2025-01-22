@@ -49,9 +49,11 @@ const Create = () => {
     newRecipe = {
       ...newRecipe,
       ingredients,
-      instructions,
+      instructions: instructions.split("\n"), // Metni diziye çeviriyoruz
+      servingSuggestion: newRecipe.servingSuggestions,
       image: `https://picsum.photos/5${Math.round(Math.random() * 89) + 10}`,
     };
+    delete newRecipe.servingSuggestions;
     // api isteği at veriyi kaydet
     mutate(newRecipe);
   };
@@ -99,6 +101,16 @@ const Create = () => {
             }
             isMulti
             required
+          />
+        </Layout>
+
+        <Layout label="Tarif">
+          <textarea
+            required
+            name="instructions"
+            onChange={(e) => setInstructions(e.target.value)}
+            placeholder="Her bir adımı yeni bir satıra yazın"
+            className="rounded-md p-2 focus:outline-red-400 h-40"
           />
         </Layout>
 
