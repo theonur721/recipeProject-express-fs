@@ -38,7 +38,7 @@ Bu proje, kullanıcıların yemek tarifleri oluşturabileceği, silebileceği ve
 
 1. Proje dizinine gidin ve gerekli paketleri yükleyin:
    ```bash
-   cd backend
+   cd api
    npm install
    ```
 2. Sunucuyu başlatın:
@@ -50,7 +50,7 @@ Bu proje, kullanıcıların yemek tarifleri oluşturabileceği, silebileceği ve
 
 1. Proje dizinine gidin ve gerekli paketleri yükleyin:
    ```bash
-   cd frontend
+   cd client
    npm install
    ```
 2. Uygulamayı çalıştırın:
