@@ -55,15 +55,8 @@ Bu proje, kullanıcıların yemek tarifleri oluşturabileceği, silebileceği ve
    ```
 2. Uygulamayı çalıştırın:
    ```bash
-   npm start
+   npm run dev
    ```
-
----
-
-## Kullanım
-
-1. Uygulamayı başlattıktan sonra tarayıcınızda açın: `http://localhost:3000`
-2. Tarif eklemek, silmek veya detaylarına ulaşmak için ilgili sayfaları kullanın.
 
 ---
 
