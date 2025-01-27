@@ -60,6 +60,4 @@ Bu proje, kullanıcıların yemek tarifleri oluşturabileceği, silebileceği ve
 
 ---
 
-## Geliştirici Notları
-
-Bu proje, Fullstack geliştirme deneyimi kazanmak ve farklı teknolojileri bir arada kullanmayı öğrenmek amacıyla geliştirilmiştir. Herhangi bir öneriniz veya sorunuz olursa iletişime geçmekten çekinmeyin!
+## Ekran Gif
