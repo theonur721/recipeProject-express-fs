@@ -61,3 +61,5 @@ Bu proje, kullanıcıların yemek tarifleri oluşturabileceği, silebileceği ve
 ---
 
 ## Ekran Gif
+
+![](ekran.gif)
